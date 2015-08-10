@@ -34,7 +34,7 @@ namespace BasicallyMe.RobinhoodNet.RhQuote
             if (args.Length == 0)
             {
                 Console.WriteLine("Usage:");
-                Console.WriteLine("RgQuote SYMBOL1 [, SYMBOL2, SYMBOL3, SYMBOL_N]");
+                Console.WriteLine("RgQuote SYMBOL1 [SYMBOL2 SYMBOL3 SYMBOL_N]");
                 Environment.Exit(1);
             }
 
